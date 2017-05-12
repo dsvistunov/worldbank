@@ -2,7 +2,6 @@ from flask import Flask, render_template
 from pymongo import MongoClient
 import json
 from bson import json_util
-from bson.json_util import dumps
 
 
 app = Flask(__name__)
